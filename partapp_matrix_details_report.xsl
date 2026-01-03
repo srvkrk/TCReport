@@ -574,7 +574,7 @@ Pls do not copy this code. Copyright@2024.
 				<font size="1px">
 				For any queries/support pls get in touch with:
 				<br></br>
-				ashvin.dudhat@tatamotors.com, souravk.ttl@tatamotors.com
+				karaksourav94@gmail.com
 				</font>
 			</div>		
 				
@@ -622,4 +622,5 @@ Pls do not copy this code. Copyright@2024.
 </html> 
 
 </xsl:template>
+
 </xsl:stylesheet> 
