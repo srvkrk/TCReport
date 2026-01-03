@@ -15,5 +15,15 @@
 	
     Process: /user/srk/tm_partapprpt
     Output: /tmp/PartAppMatReport.xml
+
+    Parameters
+    Name             Value
+    -PartList
+    -User
+    -Email
+    -u               srk
+    -pf              /user/srk/srk.pwf
+    -g               dba
+
     Style-sheet Type: Teamcenter
     Selected Stylesheets: partapp_matrix_details_report.xsl
