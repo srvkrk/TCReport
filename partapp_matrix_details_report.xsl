@@ -4,19 +4,16 @@
 <xsl:template match="/"> 
 <!-- 
 *****************************************************************************************************************
-Pls do not copy this code. Copyright@2024.
+Pls do not copy this code. Copyright@2026.
 *****************************************************************************************************************
 -->
 <html> 
   <head> 
-		 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-		
-		 <link rel = "stylesheet" href = "//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"></link>
-		 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-					
-		<!-- <script type = "text/javascript"      src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
-				
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>	
+		<link rel = "stylesheet" href = "//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"></link>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />			
+		<!-- <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->		
 		<script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	  
@@ -509,48 +506,20 @@ Pls do not copy this code. Copyright@2024.
     <!--<canvas id="myChart" style="width:100%;max-width:600px"></canvas> -->
 
 <div class="container">	
-	
-	<!-- <div id = "tabs"> -->
-			<!-- <ul>
-				<li><a href = "#tabs-1"><font size="2px">MCC<br></br><b>Main DASHBOARD</b></font></a></li>
-				<li><a href = "#tabs-2"><font size="2px">MCC Dashboard<br></br>Vehicle Compliance Reports</font></a></li> -->
-				<!-- <li><a href = "#tabs-8">Report<br></br>PUNCH</a></li> -->
-				<!-- <li><a href = "#tabs-9">Report<br></br>SAFARI</a></li> -->
-	<!--        <li><a href = "#tabs-3">NA Module Count(Bar Chart)</a></li>
-				<li><a href = "#tabs-4">Trend Report</a></li> -->
-			<!-- </ul> -->
-
-		<!-- tabs-1 Dashboard. -->	
-		
-		
-
+		<!-- tabs-1 Dashboard. -->
 		<div id = "tabs-1">	
-
 			<div class="row m-3"> 
 				<div class="col-sm-12">
 					<center><h5><b>Part Applicability Matrix Report</b></h5></center>					
 				</div>
-			</div>
-						
-			
-		<!-- 	<div class="label_info_header" style="font-size: 12px; text-align: center">
-						
-				<xsl:for-each select="MCCMainDashboardRpt/DataRefreshDate">						
-					Below Dashboard data is as per last updated on date : <xsl:value-of select="LastDate"/>							
-				</xsl:for-each>		
-			
-			</div> -->
-						
+			</div>			
 			<br></br>
-			
-			
 			<center>
 			<div class="label1">
 			Report Initiated Successfully !!
 			</div>
 			
 			<div class="label_alert" style="font-size: 14px;">
-			<!-- As per data last updated on date : 10 Oct, 2024 (Thursday) @ 22:35 hrs. -->
 			<br></br>
 				<xsl:for-each select="MCCSCRReport/DataRefreshDate">						
 					<xsl:value-of select="LastDate"/>							
@@ -585,12 +554,8 @@ Pls do not copy this code. Copyright@2024.
 <hr style="height:5px;border-width:0;color:gray;background-color:gray"></hr>
 
 		<center>
-		<font size="2px">Copyright@2026 (PLM ERC Team)</font>
+		<font size="2px">Copyright@2026 (PLM Team)</font>
 		</center>
-					 
-
-				
-
 			
 	</div> 	
 			
@@ -624,3 +589,4 @@ Pls do not copy this code. Copyright@2024.
 </xsl:template>
 
 </xsl:stylesheet> 
+
