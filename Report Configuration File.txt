@@ -1,0 +1,19 @@
+            STYLE-SHEET DATASET CREATION DETAILS
+
+1.  Dataset Name:  partapp_matrix_details_report
+    Dataset Descripon: partapp_matrix_details_report 
+    Dataset Type: CrfHtmlStylesheet
+    Named-Ref File: partapp_matrix_details_report.xsl
+	
+
+            REPORT BUILDER COONFIGURATION DETAILS (Report Type: Custom Reports)
+
+
+1.  Name: Part Applicability Report 
+    Description: Part Applicability Report
+    Source: Teamcenter
+	
+    Process: /user/srk/tm_partapprpt
+    Output: /tmp/PartAppMatReport.xml
+    Style-sheet Type: Teamcenter
+    Selected Stylesheets: partapp_matrix_details_report.xsl
