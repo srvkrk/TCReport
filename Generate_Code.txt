@@ -250,7 +250,7 @@ int ITK_user_main(int argc,char* argv[])
 	printf("Current File To Original File Move Start..!!\n");fflush(stdout);
 	char* ShellCommandLine = NULL;
 	ShellCommandLine = (char *) MEM_alloc(1000*sizeof(char ));
-	tc_strcpy(ShellCommandLine,"/user/srk/RemoveProcessFiles.sh");
+	tc_strcpy(ShellCommandLine,"/user/srk/ProcessFiles.sh");
 	tc_strcat(ShellCommandLine," ");
 	tc_strcat(ShellCommandLine,"TEST");
 	tc_strcat(ShellCommandLine," ");
@@ -319,3 +319,4 @@ int ITK_user_main(int argc,char* argv[])
 	ITK_CALL(ITK_exit_module(TRUE));	
 	return ITK_ok;
 }
+
