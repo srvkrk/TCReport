@@ -538,7 +538,7 @@ Pls do not copy this code. Copyright@2026.
 					<b><xsl:value-of select="Input_EmaiID"/></b>						
 				</xsl:for-each>
 				<br></br><br></br>
-				Kindly check your Mailbox & TCUA Home Folder after a few hours.
+				Kindly check your Mailbox and TCUA Home Folder after a few hours.
 				<br></br><br></br>
 				<font size="1px">
 				For any queries/support pls get in touch with:
@@ -589,4 +589,5 @@ Pls do not copy this code. Copyright@2026.
 </xsl:template>
 
 </xsl:stylesheet> 
+
 
