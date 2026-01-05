@@ -3,16 +3,6 @@
 <xsl:output method="html"/> 
 <xsl:template match="/"> 
 
-<!-- 
-*****************************************************************************************************************
-Author : Ujjawal Kumar
-Date   : August-2024 
-Purpose : For MCC Dashboard AWC page.
-
-Pls do not copy this code. Copyright@2024.
-*****************************************************************************************************************
--->
-
 <html> 
   <head> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
@@ -3114,4 +3104,5 @@ const randColor = () =>  {
 </html> 
 
 </xsl:template>
+
 </xsl:stylesheet> 
